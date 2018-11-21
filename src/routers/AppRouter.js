@@ -11,7 +11,6 @@ const AppRouter = () => (
     <BrowserRouter>
         <div>
             <Header />
-
             <Switch>
                 <Route path="/" component={ExpenseDashbboardPage} exact={true} />
                 <Route path="/create" component={AddExpensePage} />
